@@ -1,0 +1,48 @@
+/*-----HEADER -----*/
+
+	header .logo img {
+		width: auto;	
+	}
+
+	h1 {color: green;}
+
+/*----- SOCIAL -----*/
+	header .social {
+		position: relative;
+		float: right;
+
+	}
+
+/*------ SUB NAV ----*/
+.hideSmall {
+	display: inline;
+}
+
+/*----- COLUMNS -----*/
+	main {
+		.width6 {
+			float: left;
+			width: 6/12 * 100%;
+		}
+	}
+
+/*------ NEWSPAPER STYLE COLUMNS ------*/
+.multicol {
+	@include columns(2, #F00)
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
