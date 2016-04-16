@@ -26,9 +26,14 @@
 		}
 	}
 
+@for $i from 1 through 12 {
+	$w:($i /12) * 100%;
+	.large-#{$i} {width: $w; float: left;}
+}
+
 /*------ NEWSPAPER STYLE COLUMNS ------*/
 .multicol {
-	@include columns(2, #F00)
+	@include columns(2, $dkgrey);
 }
 	
 	
