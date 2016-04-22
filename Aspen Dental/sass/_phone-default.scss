@@ -161,7 +161,21 @@ main {
 	.column {
 		padding: 0 $gutter;
 	}
-} /*end main*/
+}
+
+
+@for $i from 1 through 12 {
+	$w:($i /12) * 100%;
+	.small-#{$i} {width: $w; float: left;}
+}
+
+/*------ IMAGES --------*/
+img.triangle {
+	float: left;
+	margin: 10px 20px 20px 0;
+	-webkit-shape-outside: polygon(0 0, 100% 0, 0 100%);
+	shape-outside: polygon(0 0, 100% 0, 0 100%);
+}
 
 /*------ FOOTER --------*/
 footer {
