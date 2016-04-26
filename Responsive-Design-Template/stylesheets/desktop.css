@@ -3,4 +3,9 @@
   h1 {
     color: silver;
   }
+
+/*------COLUMNS-------*/
+  .column-2 {
+    width: 16.666%;
+  }
 }
