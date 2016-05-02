@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1141px) {
+
+  h1 {
+    color: silver;
+  }
+
+/*-----BANNER-------*/
+  #banner {
+    	 background-image: url(../photos/hero-desktop2.jpg);
+       height: 500px;
+       background-position: center;
+  }
+
+/*------COLUMNS-------*/
+  .column-2 {
+    width: 16.666%;
+  }
+}
