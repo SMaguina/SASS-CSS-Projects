@@ -116,21 +116,21 @@ nav ul li:last-child a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----- PHOTO STYLING -----*/
+	figure.column-4 {
+		width: 48%;
+		margin-left: 2%;
+		float: right;
+		border: 1px solid #999;
+	}
+	figcaption {
+		text-align: center;
+		font-size: .8em;
+		padding: .3em 0;
+	}
+	figure.column-4 img {
+		width: 100%;
+	}
 
 
 
