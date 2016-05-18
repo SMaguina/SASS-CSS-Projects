@@ -117,7 +117,7 @@ nav ul li:last-child a {
 
 
 /*----- PHOTO STYLING -----*/
-	figure.column-4 {
+	figure.column-4, figure.column-6 {
 		width: 48%;
 		margin-left: 2%;
 		float: right;
@@ -128,7 +128,7 @@ nav ul li:last-child a {
 		font-size: .8em;
 		padding: .3em 0;
 	}
-	figure.column-4 img {
+	figure.column-4 img, figure.column-6 img {
 		width: 100%;
 	}
 
