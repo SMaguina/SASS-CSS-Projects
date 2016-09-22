@@ -4,12 +4,14 @@
 
 @import "phone-default";
 
+/* Begin media query breakpoint */
 @media only screen and (min-width: 45em) {
   @import "tablet";
-}/* end query */
+}/* End query */
 
+/* Begin media query breakpoint */
 @media only screen and (min-width: 64.25em) {
   @import "desktop";
-}/* end query */
+}/* End query */
 	
 @import "mobilemenu";
